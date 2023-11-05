@@ -1,0 +1,15 @@
+# AMAZON LINUX 2
+sudo amazon-linux-extras install epel
+sudo yum update
+sudo yum install redis
+redis-cli --version
+redis-cli -h   -p 6379
+
+# AMAZON LINUX 2023
+sudo dnf install -y redis6
+sudo systemctl start redis6
+sudo systemctl enable redis6
+sudo systemctl is-enabled redis6
+redis6-server --version
+redis6-cli ping
+redis6-cli -h redis-demo.y3tvsx.ng.0001.use1.cache.amazonaws.com -p 6379
