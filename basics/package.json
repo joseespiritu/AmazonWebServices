@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.441.0",
+    "@aws-sdk/client-ec2": "^3.454.0",
     "@aws-sdk/client-iam": "^3.370.0",
     "@aws-sdk/client-rds": "^3.454.0",
     "@aws-sdk/client-s3": "^3.449.0",
