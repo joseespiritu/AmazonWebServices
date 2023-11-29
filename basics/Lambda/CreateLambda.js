@@ -10,7 +10,7 @@ const params = {
     FunctionName: 'HelloLambda',
     Runtime: 'nodejs18.x',
     Role: 'arn:aws:iam::505843377963:role/JavascriptLambdaRole',
-    Handler: 'index.hanlder',
+    Handler: 'index.handler',
     Timeout: 300,
 }
 
